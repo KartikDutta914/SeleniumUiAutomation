@@ -1,6 +1,11 @@
 # Selenium UI Automation Framework
 
-A robust, thread-safe, and parallel-ready automated UI testing framework built on **Java 21** using **Selenium WebDriver**, **TestNG**, **Log4j2**, and **ExtentReports**. This framework demonstrates a production-grade implementation of the Page Object Model (POM) pattern, targeting Amazon's search-to-cart workflows with advanced handling of dynamic overlays, location changes, and resilient element locators. Supports both **local browser** and **LambdaTest cloud grid** execution.
+A robust, thread-safe, and parallel-ready automated UI testing framework built on **Java 21** using **Selenium WebDriver**, **TestNG**, **Log4j2**, and **ExtentReports**. This framework demonstrates a production-grade implementation of the Page Object Model (POM) pattern, targeting Amazon's search-to-cart workflows with advanced handling of dynamic overlays, location changes, and resilient element locators.
+
+> 🚀 **LambdaTest Cloud Integration Included!**
+> This repository has built-in support for running tests on the **[LambdaTest](https://www.lambdatest.com/) cloud grid** — no additional setup needed.
+> The integration is located at `src/test/java/com/lambdatest/BasicAuthentication.java` and is wired directly into `BaseTest`, allowing you to switch from local to cloud execution with a single command-line flag.
+
 
 ---
 
